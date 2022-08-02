@@ -31,7 +31,7 @@ class Solution:
         # TODO: Write code below to return a nested list with the solution to the prompt
         final = [[1]]
         
-        for i in range(rows):
+        for i in range(rows)[1:]:
             newrow = []
             for j in range(i + 1):
                 if j == 0 or j == range(i + 1)[-1]:
